@@ -1,8 +1,14 @@
 # Bulletproof Kafka Streams
 
+## Scenario
+
 `GIVEN` A Kafka Streams application processing events from various network IoT devices 
+
 `WHEN` a corrupted message causes a runtime exception during the processing phase
+
 `THEN` we want to skip the corrupted message and carry on processing without any human intervention
+
+## Solution
 
 https://developer.confluent.io/learn-kafka/kafka-streams/error-handling/ 
 
